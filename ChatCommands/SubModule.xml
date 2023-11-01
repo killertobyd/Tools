@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Multiplayer"/>
+	<Id value = "Multiplayer"/>
+	<Version value = "v1.1.6"/>
+	<DefaultModule value="true"/>
+	<ModuleCategory value="Multiplayer"/>
+  <ModuleType value ="Official" />
+  <DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.0.3" Optional="false"/>
+	</DependedModules>
+  <SubModules>
+        <SubModule>
+            <Name value="ChatCommands" />
+            <DLLName value="ChatCommands.dll" />
+            <DLLName value="0Harmony.dll" />
+            <SubModuleClassType value="ChatCommands.ChatCommandsSubModule" />
+            <Tags>
+                <Tag key="DedicatedServerType" value="custom" />
+            </Tags>
+        </SubModule>      
+  </SubModules>
+</Module>
