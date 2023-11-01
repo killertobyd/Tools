@@ -2,7 +2,7 @@
 <Module>
 	<Name value = "Multiplayer"/>
 	<Id value = "Multiplayer"/>
-	<Version value = "v1.1.5"/>
+	<Version value = "v1.1.6"/>
 	<DefaultModule value="true"/>
 	<ModuleCategory value="Multiplayer"/>
   <ModuleType value ="Official" />
